@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rest-Country-App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="light">
+    <div class="custom-loader"></div>
+    <main>
+        <img class="toparrow" src="./toparrow.png" alt="loading..." />
+        <header>
+            <h1>myWorld?</h1>
+            <div class="modeChanger changemode">
+                <i class="fa-regular fa-moon"></i>
+                <span>Night Mode</span>
+            </div>
+        </header>
+        <section class="main-section">
+            <div class="input">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="inputdata" type="search" placeholder="search country" />
+            </div>
+            <div class="filter">
+                <div class="subfilter">
+                    <p>Filter by Region</p>
+                    <i class="fa-solid fa-sort-down"></i>
+                </div>
+                <ul class="filterlist">
+                    <li class="allcountry">All</li>
+                    <li class="region">Africa</li>
+                    <li class="region">Americas</li>
+                    <li class="region">Antarctic</li>
+                    <li class="region">Asia</li>
+                    <li class="region">Europe</li>
+                    <li class="region">Oceania</li>
+                </ul>
+            </div>
+        </section>
+        <div class="container">
+            <!-- <div class="card">
+            <div><img src="https://flagcdn.com/w320/gs.png" alt="loading..."></div>
+            <h1>India</h1>
+            <p>Population: 1410000000</span></p>
+            <p>Region: <span>Asia</span></p>
+            <p>Capital: Delhi</span></p>
+         </div> -->
+        </div>
+        <section id="pagination">
+            <button id="prev">Prev</button>
+            <button id="next">Next</button>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
